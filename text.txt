@@ -1,0 +1,2 @@
+Shorter code more points
+Write a Logic to count number of 1's in the array a=[1,1,1,1,2,2,2,2,2,2,1,1,2]

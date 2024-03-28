@@ -1,0 +1,205 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Rubik+Lines&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Rubik+Lines&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Petit+Formal+Script&family=Rubik+Lines&display=swap");
+
+html {
+  scroll-behavior: smooth;
+}
+/* Style the scroll bar */
+::-webkit-scrollbar {
+  width: 5px;
+  background-color: red;
+}
+
+::-webkit-scrollbar-track {
+  background: black;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgb(139, 137, 137);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(37, 37, 37);
+}
+.font-formal {
+  font-family: "Petit Formal Script", cursive;
+  font-weight: 400;
+  font-style: normal;
+  text-transform: capitalize;
+}
+.font-cursive {
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+}
+.font-lobster {
+  font-family: "Lobster", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-transform: capitalize;
+}
+
+/* black theme */
+.app[theme="black"] {
+  background-color: rgb(13, 13, 13);
+}
+.app[theme="black"] .section {
+  color: white;
+}
+.app[theme="black"] .section .btn {
+  background-color: rgb(0, 0, 0);
+  color: white;
+  transition: 0.3s ease-in-out;
+}
+.app[theme="black"] .section .btn:hover {
+  background-color: rgb(0, 0, 0);
+  outline: 1px solid silver;
+  color: white;
+  font-weight: bold;
+  letter-spacing: 3px;
+}
+.app[theme="black"] .sidebar {
+  background-color: rgb(13, 13, 13);
+  color: white;
+}
+.app[theme="black"] .sidebar ul li a:hover {
+  background-color: black;
+}
+.app[theme="black"] .section .silver {
+  color: silver;
+}
+
+/* beige color */
+.app[theme="beige"] {
+  background-color: beige;
+}
+.app[theme="beige"] .section {
+  color: rgb(128, 126, 126);
+}
+.app[theme="beige"] .section .btn {
+  background-color: rgb(128, 126, 126);
+  color: rgb(255, 255, 210);
+  transition: 0.3s ease-in-out;
+}
+.app[theme="beige"] .section .btn:hover {
+  outline: 1px solid rgb(128, 126, 126);
+  color: rgb(255, 255, 210);
+  font-weight: bold;
+  letter-spacing: 3px;
+}
+.app[theme="beige"] .sidebar {
+  background-color: beige;
+  color: rgb(128, 126, 126);
+}
+.app[theme="beige"] .sidebar ul li a:hover {
+  background-color: rgb(212, 212, 200);
+}
+
+/* cyan color */
+.app[theme="cyan"] {
+  background-color: #80becc;
+}
+.app[theme="cyan"] .sidebar {
+  background-color: #80becc;
+  color: #1f2f32;
+}
+.app[theme="cyan"] .section {
+  color: #1f2f32;
+}
+.app[theme="cyan"] .section .btn {
+  color: #80becc;
+  background-color: #1f2f32;
+  transition: 0.3s ease-in-out;
+}
+.app[theme="cyan"] .section .btn:hover {
+  outline: 1px solid #80becc;
+  color: #80becc;
+  font-weight: bold;
+  letter-spacing: 3px;
+}
+.app[theme="cyan"] .sidebar ul li a:hover {
+  background-color: #a3e3f3;
+}
+
+/* salmon color */
+.app[theme="salmon"] {
+  background-color: salmon;
+}
+.app[theme="salmon"] .section {
+  color: rgb(36, 30, 30);
+}
+.app[theme="salmon"] .section .btn {
+  color: salmon;
+  background-color: rgb(36, 30, 30);
+  transition: 0.3s ease-in-out;
+}
+.app[theme="salmon"] .section .btn:hover {
+  color: salmon;
+  font-weight: bold;
+  letter-spacing: 3px;
+}
+.app[theme="salmon"] .sidebar {
+  background-color: salmon;
+  color: rgb(36, 30, 30);
+}
+.app[theme="salmon"] .sidebar ul li a:hover {
+  background-color: rgb(245, 147, 136);
+}
+
+/* night color */
+.app[theme="night"] {
+  background-image: linear-gradient(to right, #12100e, #2b4162);
+}
+.app[theme="night"] .section {
+  color: white;
+}
+.app[theme="night"] .section .btn {
+  color: white;
+  background-color: #1b1d20;
+  transition: 0.3s ease-in-out;
+}
+.app[theme="night"] .section .btn:hover {
+  color: white;
+  font-weight: bold;
+  letter-spacing: 3px;
+}
+.app[theme="night"] .sidebar {
+  background-image: linear-gradient(to right, #12100e, #2b4162);
+  color: white;
+}
+.app[theme="night"] .sidebar ul li a:hover {
+  background-image: linear-gradient(to right, #12100e, #3f5c86);
+}
+
+/* gradient purple and black */
+.app[theme="purple-black"] {
+  background-image: linear-gradient(to right, black, rgb(70, 3, 70));
+}
+.app[theme="purple-black"] .section {
+  color: white;
+}
+.app[theme="purple-black"] .section .btn {
+  color: white;
+  background-image: linear-gradient(to right, black, rgb(70, 3, 70));
+  transition: 0.3s ease-in-out;
+}
+.app[theme="purple-black"] .section .btn:hover {
+  font-weight: bold;
+  letter-spacing: 3px;
+}
+.app[theme="purple-black"] .sidebar {
+  background-image: linear-gradient(to right, black, rgb(70, 3, 70));
+  color: white;
+}
+.app[theme="purple-black"] .sidebar ul li a:hover {
+  background-image: linear-gradient(to right, black, rgb(100, 5, 100));
+}
+
+.scroll {
+  clip-path: circle(var(--clip) at 50% 50%);
+}
+.service-image:hover .transition-layer{
+  opacity: 1;
+}
