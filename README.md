@@ -1,8 +1,19 @@
-# React + Vite
+---------- Animated Portfolio ----------
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+- Live Link : https://johnportfolyo.netlify.app/
 
-Currently, two official plugins are available:
+  ----- Tech used -----
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+  - Reactjs. ✅
+  - Tailwind Css. ✅
+  - Data intigration from API. ✅
+  - AOS (animate on scroll) library. ✅
+  - Swiper Library. ✅
+  - GSAP library. ✅
+
+----- Getting Start -----
+
+- Git clone : git clone https://github.com/myprofile-karan/Portfolyo.git.
+- Navigae to Root directory.
+- install all packages and dependencies : ***npm i***
+- start App : ***npm run dev***
